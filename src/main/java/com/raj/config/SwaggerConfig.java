@@ -15,5 +15,7 @@ public class SwaggerConfig {
     public Docket api(){
         return new Docket(DocumentationType.SWAGGER_2).select().paths(PathSelectors.any())
                 .apis(RequestHandlerSelectors.basePackage("com.raj.controller")).build();
+// this is my swagger config
     }
 }
+
